@@ -1,0 +1,7 @@
+{
+  "name": "sentinel-cyber-safety-awareness",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cyber-safety awareness site with an optional Node.js video catalog backend.",
+  "scripts": { "start": "node backend/server.js" }
+}
