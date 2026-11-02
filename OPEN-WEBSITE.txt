@@ -1,0 +1,10 @@
+OPEN THE WEBSITE IN A BROWSER
+
+1. Extract the entire Sentinel-Website-Portable.zip folder.
+2. Double-click START-WEBSITE.bat. It starts the local server and opens the site in your default browser.
+3. To use Chrome or another browser, paste http://127.0.0.1:3000/ into its address bar while the server window is running.
+4. Keep the extracted folder together so images, guide pages, styles, and scripts can load.
+
+Starting the local server lets YouTube play inside the website. Opening index.html directly still shows the static site, but YouTube requires an HTTP page origin for embedded playback. An internet connection is required.
+
+The server also provides the video catalog at /api/videos.
